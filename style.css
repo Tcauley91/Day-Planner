@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+h3{
+   text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.container-fluid {
+    align-items: center;
+    
+}
+
+.row{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 88px;
+}
+
+.col-1 {
+    background-color: lightgray;
+    border-top: solid 1px black;
+    margin-right: -15px;
+    text-align: justify;
+    text-align: end;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    height:88px;
+}
+
+.col-11{
+    padding-right: -15px;
+}
+
+.input-group>.input-group-append>.btn{
+    width: 100px;
+    background: #43a5bf;
+    color: white;
+
+}
+
+.input-group>.form-control:not(:last-child) {
+
+    height: 87px;
+}
